@@ -22,9 +22,6 @@
       ],
       "@agenda/platform/*": [
         "./libs/platform/*"
-      ],
-      "@agenda/auth/*": [
-        "./libs/auth/*"
       ]
     }
   }

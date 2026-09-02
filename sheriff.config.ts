@@ -6,7 +6,9 @@ import {
 
 export const config: SheriffConfig = {
   autoTagging: false,
-  entryFile: "main.ts",
+  entryPoints: {
+    agenda: "apps/agenda/src/main.ts",
+  },
 
   modules: {
     "libs/<domain>/domain-logic": ["domain:<domain>", "type:domain-logic"],
