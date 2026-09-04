@@ -2,7 +2,6 @@
   "extends": "./tsconfig.base.json",
   "include": [
     "libs/**/*.ts",
-    "main.ts",
     "sheriff.config.ts",
     "eslint.config.js"
   ]

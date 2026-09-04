@@ -226,7 +226,7 @@ importers:
         specifier: ^8.68.0
         version: 8.68.0(eslint@10.9.1(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
 
-  apps/agenda:
+  apps/starter:
     dependencies:
       '@angular/common':
         specifier: ^22.1.0

@@ -1,14 +1,21 @@
 {
-  "name": "agenda",
+  "name": "angular-starter-workspace",
   "version": "1.0.0",
-  "description": "",
+  "description": "Reusable Angular starter workspace",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "pnpm --filter starter start",
+    "build": "pnpm --filter starter build",
+    "test": "pnpm --filter starter test",
+    "test:ci": "pnpm --filter starter exec ng test --watch=false",
+    "verify": "sheriff verify",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "pnpm --filter starter exec prettier --write ."
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devEngines": {
     "packageManager": {
       "name": "pnpm",

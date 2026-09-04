@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "agenda": {
+    "starter": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -24,9 +24,7 @@
                 "input": "public"
               }
             ],
-            "styles": [
-              "src/styles.css"
-            ]
+            "styles": ["src/styles.css"]
           },
           "configurations": {
             "production": {
@@ -56,10 +54,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "agenda:build:production"
+              "buildTarget": "starter:build:production"
             },
             "development": {
-              "buildTarget": "agenda:build:development"
+              "buildTarget": "starter:build:development"
             }
           },
           "defaultConfiguration": "development"
