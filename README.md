@@ -101,7 +101,7 @@ See [apps/starter/README.md](apps/starter/README.md) for details about the Angul
 
 ## Articles That Inspired This Template
 
-This template was inspired by Van Ortega's series _How I Set Up a Greenfield Angular Project_:
+This template was inspired by Van Ortega's series _Como eu configuro um projeto greenfield em Angular_:
 
 1. [Part 1: structure, TypeScript and the three axes](https://medium.com/@ortegavan/como-eu-configuro-um-projeto-greenfield-em-angular-parte-1-0b2142436c8f)
 2. [Part 2: Sheriff and enforceable architecture](https://medium.com/@ortegavan/como-eu-configuro-um-projeto-greenfield-em-angular-parte-2-03b918a8d914)
