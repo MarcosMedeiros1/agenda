@@ -1,4 +1,4 @@
-# Angular Starter Workspace
+# Angular Monorepo Blueprint
 
 Boilerplate for Angular projects in a pnpm monorepo, with vertical domain architecture, strict TypeScript, Sheriff module boundaries, ESLint, Vitest and Tailwind CSS.
 
