@@ -16,13 +16,9 @@
     "skipLibCheck": true,
     "verbatimModuleSyntax": true,
     "noEmit": true,
-    "paths": {
-      "@starter/shared/*": [
-        "./libs/shared/*"
-      ],
-      "@starter/platform/*": [
-        "./libs/platform/*"
-      ]
-    }
+    // Add real aliases here when product domains are introduced.
+    // "paths": {
+    //   "@starter/<domain>/*": ["./libs/<domain>/*"]
+    // }
   }
 }

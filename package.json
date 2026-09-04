@@ -1,5 +1,5 @@
 {
-  "name": "angular-starter-workspace",
+  "name": "angular-monorepo-blueprint",
   "version": "1.0.0",
   "description": "Reusable Angular starter workspace",
   "main": "index.js",

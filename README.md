@@ -27,6 +27,15 @@ Components should only be promoted to `shared/ui-base` after they are used by tw
 
 Dependency rules are checked by Sheriff in [sheriff.config.ts](sheriff.config.ts). The application is the composition point; libraries do not depend on it.
 
+## Using This Template
+
+```bash
+gh repo create my-project \
+  --template MarcosMedeiros1/angular-monorepo-blueprint \
+  --public \
+  --clone
+```
+
 ## Getting Started
 
 ```bash
